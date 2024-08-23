@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff66b2, #6a0dad);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.game-setup {
+    margin-top: 20px;
+}
+
+.game-setup input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+}
+
+.game-setup button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #ff66b2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.game-area {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.song-clip {
+    margin: 20px 0;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+
+.input-area input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-area button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #ff66b2;
+    border: none;
+    border-radius: 5px;
+    cursor

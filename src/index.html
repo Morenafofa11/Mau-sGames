@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mau Mic Drop Masters</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- YouTube API for video player -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Mau Mic Drop Masters!</h1>
+        <div class="game-setup">
+            <input type="text" id="playerName" placeholder="Enter your name">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+        <div class="game-area" style="display:none;">
+            <div class="player-info">
+                <h2 id="playerGreeting"></h2>
+            </div>
+
+            <div class="song-clip">
+                <p>Listen to the clip and fill in the blank:</p>
+                <div id="player"></div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="lyricInput" placeholder="Type the missing lyrics here...">
+                <button onclick="submitAnswer()">Submit</button>
+            </div>
+
+            <div class="scoreboard">
+                <h2>Scoreboard</h2>
+                <div id="scores"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
